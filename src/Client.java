@@ -11,8 +11,6 @@ public class Client implements Runnable {
     Scanner in;
     PrintStream out;
 
-    static String color;
-
     public Client(Socket socket, Server server) {
         this.socket = socket;
         this.server = server;
@@ -36,10 +34,10 @@ public class Client implements Runnable {
             out = new PrintStream(os);
 
             // читаем из сети и пишем в сеть
-            out.println("Welcome to chat " + "User - " + socket.getPort() + "!");
+            out.println("Welcome to chat " + "User-" + socket.getPort() + " !");
             String input = in.nextLine();
             while (!input.equals("bye")) {
-                server.sedAll( "Message from - " + socket.getPort() + "\t" + input);
+                server.sedAll(input, socket);
                 input = in.nextLine();
             }
             socket.close();

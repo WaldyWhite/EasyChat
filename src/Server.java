@@ -12,9 +12,14 @@ public class Server {
         // создаем серверный сокет на порту 1234
         serverSocket = new ServerSocket(1234);
     }
-public void sedAll(String message) {
+public void sedAll(String message, Socket socket) {
         for(Client  client : clients){
-            client.receive(message);
+            if (socket.getPort() == client.socket.getPort()) {
+                client.receive("My Message \t" + message);
+            } else {
+                client.receive("Message from User-" + socket.getPort() + "\t" + message);
+            }
+
         }
 }
     public void run() {
@@ -29,7 +34,7 @@ public void sedAll(String message) {
                 // создаем клиента на своей стороне
                 clients.add(new Client(socket, this));
             } catch (IOException e) {
-                e.printStackTrace();
+                e.printStackTrace(System.err);
 
             }
         }
