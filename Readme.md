@@ -1,9 +1,9 @@
 ## Самый простой чат-сервер.
 
-Для работы с программой можно использовать PuTTY или запускать программу с помощью отдельного класса NetClient.
+Для работы с программой можно использовать **PuTTY** или запускать её через 
+отдельный класс ***NetClient***.
 
-Для запуска программы с помощью отдельного класса NetClient, 
-в **Intellij IDEA** передите в ***Edit Configurations*** -> 
-***Modify options*** и выберите  ***Allow multiple instances***
+Чтобы запустить программу через ***NetClient*** в **IntelliJ IDEA**,
+перейдите в ***Edit Configurations*** → ***Modify options***, затем выберите ***Allow multiple instances***.
 
 <img src="Intellij.JPG">
