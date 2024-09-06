@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ad2a5a4-d103-42cb-bef6-edf22011280a" name="Changes" comment="updated">
-      <change beforePath="$PROJECT_DIR$/src/NetClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NetClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server.java" afterDir="false" />
+    <list default="true" id="0ad2a5a4-d103-42cb-bef6-edf22011280a" name="Changes" comment="delete sout">
+      <change afterPath="$PROJECT_DIR$/Intellij.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,13 +150,30 @@
       <option name="project" value="LOCAL" />
       <updated>1725649419807</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="delete sout">
+      <option name="closed" value="true" />
+      <created>1725649650307</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1725649650307</updated>
+    </task>
+    <task id="LOCAL-00008" summary="delete sout">
+      <option name="closed" value="true" />
+      <created>1725649680680</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1725649680680</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="added User-portNumber" />
     <MESSAGE value="updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated" />
+    <MESSAGE value="delete sout" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete sout" />
   </component>
 </project>
