@@ -37,10 +37,10 @@ public class Client implements Runnable {
 
             // читаем из сети и пишем в сеть
             out.println("Welcome to chat " + "User - " + socket.getPort() + "!");
-            String input = "Message from - " + socket.getPort() + "\t" + in.nextLine();
+            String input = in.nextLine();
             while (!input.equals("bye")) {
-                server.sedAll(input);
-                input = "Message from - " + socket.getPort() + "\t" + in.nextLine();
+                server.sedAll( "Message from - " + socket.getPort() + "\t" + input);
+                input = in.nextLine();
             }
             socket.close();
         } catch (IOException e) {
